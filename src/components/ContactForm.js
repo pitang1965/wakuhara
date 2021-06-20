@@ -111,7 +111,7 @@ function ContactForm() {
         />
       </fieldset>
       <fieldset>
-        <button type="submit">上記ワクハラ情報を公開するために送信します</button>
+        <button type="submit">ワクハラ情報を公開してください</button>
       </fieldset>
     </form>
   );
