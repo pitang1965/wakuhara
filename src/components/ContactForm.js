@@ -102,7 +102,6 @@ function ContactForm() {
       <fieldset>
         <label htmlFor="message">メッセージ</label>
         <textarea
-          className={styles.message}
           id="message"
           name="message"
           value={formState.message}
@@ -112,7 +111,7 @@ function ContactForm() {
         />
       </fieldset>
       <fieldset>
-        <button type="submit">送信</button>
+        <button type="submit">上記ワクハラ情報を公開するために送信します</button>
       </fieldset>
     </form>
   );
