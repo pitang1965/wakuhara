@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `ワクハラ`,
-    description: `ワクハラ（ワクチン接種の強要）はいけません。ワクチン接種は個人の自由です。`,
     author: `@pitang1965`,
+    description: `ワクハラ（ワクチン接種の強要）はいけません。ワクチン接種は個人の自由です。`,
+    image: `https://github.com/pitang1965/wakuhara/blob/main/src/images/child.jpg`,
+    title: `ワクハラ`,
+    url: `https://wakuhara.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
