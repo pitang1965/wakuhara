@@ -11,7 +11,7 @@ import Books from '../components/Books';
 const IndexPage = () => {
   return (
     <Layout>
-      <Seo title="トップページラ" />
+      <Seo title="トップページ" />
       <StaticImage
         src="../images/child.jpg"
         width={1920}
