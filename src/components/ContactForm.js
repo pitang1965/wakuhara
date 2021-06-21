@@ -84,7 +84,6 @@ function ContactForm() {
           onChange={handleChange}
           value={formState.url}
           placeholder="（任意）通法者のSNSのURLを入力してください。"
-          required
         />
       </fieldset>
       <fieldset>
