@@ -47,10 +47,10 @@ function ContactForm() {
       data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="form-name" value="contact" />
-      <label className={styles.title}>ワクハラ通報フォーム</label>
-      <label className={styles.description}>
+      <p className={styles.title}>ワクハラ通報フォーム</p>
+      <p className={styles.description}>
         ワクハラについて公開したい情報をください。24時間以内に返信いたします。
-      </label>
+      </p>
       <fieldset>
         <label htmlFor="name">名前</label>
         <input
