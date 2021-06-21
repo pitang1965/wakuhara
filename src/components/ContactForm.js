@@ -31,7 +31,7 @@ function ContactForm() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contact', ...formState }),
     })
-      .then(() => alert('メールを送信しました。'))
+      .then(() => alert('メッセージを送信しました。'))
       .catch((error) => alert(error));
 
     e.preventDefault();
