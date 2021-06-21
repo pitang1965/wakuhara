@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import * as styles from './ContactForm.module.css';
 
+const initialState = {
+  name: '',
+  company: '',
+  url: '',
+  email: '',
+  message: '',
+};
+
 function ContactForm() {
-  const [formState, setFormState] = useState({
-    name: '',
-    company: '',
-    url:'',
-    email: '',
-    message: '',
-  });
+  const [formState, setFormState] = useState(initialState);
 
   const encode = (data) => {
     return Object.keys(data)
@@ -31,7 +33,10 @@ function ContactForm() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contact', ...formState }),
     })
-      .then(() => alert('メッセージを送信しました。'))
+      .then(() => {
+        setFormState(initialState);
+        alert('メッセージを送信しました。');
+      })
       .catch((error) => alert(error));
 
     e.preventDefault();
