@@ -37,7 +37,7 @@ const IndexPage = () => {
         そのような不当な取り扱い（以下、ワクハラ）を見つけましたら、ぜひ「ワクハラ通報フォーム」からご連絡ください。
       </p>
 
-      <VideoContainer url="https://www.youtube.com/embed/77VGhVNjct4" />
+      <VideoContainer url="https://www.youtube.com/embed/lRmAnF6R5Us" />
 
       <ContactForm />
 
