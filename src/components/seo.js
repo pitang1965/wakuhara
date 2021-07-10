@@ -89,7 +89,7 @@ function Seo({ author, description, image, lang, meta, title, url }) {
 
 Seo.propTypes = {
   description: PropTypes.string,
-  image: PropTypes.string.isRequired,
+  image: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 
 import Layout from '../components/layout';
@@ -36,15 +35,12 @@ const IndexPage = () => {
       <p>
         そのような不当な取り扱い（以下、ワクハラ）を見つけましたら、ぜひ「ワクハラ通報フォーム」からご連絡ください。
       </p>
-
-      <VideoContainer url="https://www.youtube.com/embed/lRmAnF6R5Us" />
-
-      <ContactForm />
-
       <p>
-        <Link to="/wakuhara-companys/">ワクハラ企業一覧へ</Link> <br />
+        コロナのワクチンを打つ必要があるかを判断するには、各個人の状況を踏まえて、リスクとベネフィットを比較する必要があります。
       </p>
 
+      <VideoContainer url="https://www.youtube.com/embed/lRmAnF6R5Us" />
+      <ContactForm />
       <Books />
     </Layout>
   );

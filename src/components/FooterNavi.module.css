@@ -1,0 +1,8 @@
+nav {
+  margin-top: 1rem;
+}
+
+nav * {
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
