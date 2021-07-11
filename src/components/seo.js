@@ -47,7 +47,7 @@ function Seo({ author, description, image, lang, meta, title, url }) {
           content: metaDescription,
         },
         {
-          name: `og:image`,
+          property: `og:image`,
           content: image,
         },
         {
@@ -59,7 +59,7 @@ function Seo({ author, description, image, lang, meta, title, url }) {
           content: `website`,
         },
         {
-          name: `og:url`,
+          property: `og:url`,
           content: url,
         },
         {
