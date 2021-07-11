@@ -24,7 +24,11 @@ const IndexPage = () => {
       <h1>ワクハラ駄目！絶対！</h1>
       <p>
         2020年12月に改正され施行された
-        <a href="https://elaws.e-gov.go.jp/document?lawid=323AC0000000068" target="_blank" rel="noreferrer">
+        <a
+          href="https://elaws.e-gov.go.jp/document?lawid=323AC0000000068"
+          target="_blank"
+          rel="noreferrer"
+        >
           予防接種法
         </a>
         では、予防接種は国民の「努力義務」とされました。実質は「任意」であり、「国民は打つ、打たないを選択できる」。
