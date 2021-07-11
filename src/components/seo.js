@@ -58,7 +58,7 @@ function Seo({ author, description, image, lang, meta, title, url }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:type`,
