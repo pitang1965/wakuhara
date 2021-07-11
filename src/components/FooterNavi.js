@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import './FooterNavi.module.css';
+import * as styles from './FooterNavi.module.css';
 
 const FooterNavi = () => {
   return (
     <nav>
-      <Link to ="/">ホーム</Link>
-      <Link to="/wakuhara-companys">ワクハラ企業一覧</Link>
-      <Link to="/mask">マスク</Link>
-      <Link to="/pcr">PCR検査</Link>
+      <Link to ="/" className={styles.growShadow }>ホーム</Link>
+      <Link to="/wakuhara-companys" className={styles.growShadow }>ワクハラ企業一覧</Link>
+      <Link to="/mask" className={styles.growShadow }>マスク</Link>
+      <Link to="/pcr" className={styles.growShadow }>PCR検査</Link>
     </nav>
   );
 };
