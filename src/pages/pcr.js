@@ -16,13 +16,46 @@ const pcr = () => (
       <blockquote className={styles.blockquote}>
         生体試料中の SARS-CoV-2 RNA の検出（SARS-CoV-2 感染の診断 の補助）
       </blockquote>
-      <p>
-        つまりこの検査で陽性だからといって新型コロナウイルスに感染したわけでもないし、陰性だからといって感染していないことの証明にもなりません。
-      </p>
       <blockquote className={styles.blockquote}>
         本製品での判定が陰性であっても、疾患としての
         SARS-CoV-2感染を否定するものではない。
       </blockquote>
+      <p>
+        つまりこの検査で陽性だからといって新型コロナウイルスに感染したわけでもないし、陰性だからといって感染していないことの証明にもなりません。
+      </p>
+
+      <p>以下にSARSコロナウイルス核酸キットの添付文書を示します。</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.info.pmda.go.jp/downfiles/ivd/PDF/840863_30200EZX00023000_A_01_04.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            TaqPath 新型コロナウイルス(SARS-CoV-2) リアルタイム PCR 検出キット
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.info.pmda.go.jp/downfiles/ivd/PDF/340085_30200EZX00065000_A_01_03.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Ampdirect 2019-nCoV 検出キット
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.info.pmda.go.jp/downfiles/ivd/PDF/400777_30200EZX00076000_A_01_02.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Takara SARS-CoV-2 ダイレクト PCR 検出キット
+          </a>
+        </li>
+      </ul>
+
+      <h2>私の考え</h2>
       <p>
         <a
           href="https://media-virus.netlify.app/"
@@ -55,7 +88,7 @@ const pcr = () => (
           PC用ダッシュボード
         </a>
         )(
-          <a
+        <a
           href="http://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61"
           target="_blank"
           rel="noreferrer"
@@ -64,36 +97,6 @@ const pcr = () => (
         </a>
         )などで世界と日本の統計情報を比較して分析しましょう。
       </p>
-      <p>以下にSARSコロナウイルス核酸キットの添付文書を示します。</p>
-      <ul>
-        <li>
-          <a
-            href="https://www.info.pmda.go.jp/downfiles/ivd/PDF/840863_30200EZX00023000_A_01_04.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            TaqPath 新型コロナウイルス(SARS-CoV-2) リアルタイム PCR 検出キット
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.info.pmda.go.jp/downfiles/ivd/PDF/340085_30200EZX00065000_A_01_03.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ampdirect 2019-nCoV 検出キット
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.info.pmda.go.jp/downfiles/ivd/PDF/400777_30200EZX00076000_A_01_02.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Takara SARS-CoV-2 ダイレクト PCR 検出キット
-          </a>
-        </li>
-      </ul>
     </article>
   </Layout>
 );
