@@ -115,7 +115,7 @@ function ContactForm() {
         />
       </fieldset>
       <fieldset>
-        <button type="submit">ワクハラ情報を公開してください</button>
+        <button type="submit" className={styles.pulseGrow}>ワクハラ情報を公開してください</button>
       </fieldset>
     </form>
   );
