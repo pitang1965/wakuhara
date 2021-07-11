@@ -6,8 +6,9 @@ const FooterNavi = () => {
   return (
     <nav>
       <Link to ="/">ホーム</Link>
-      <Link to="/wakuhara-companys">ワクハラ企業一覧へ</Link>
-      <Link to="/mask">マスクについて</Link>
+      <Link to="/wakuhara-companys">ワクハラ企業一覧</Link>
+      <Link to="/mask">マスク</Link>
+      <Link to="/pcr">PCR検査</Link>
     </nav>
   );
 };
