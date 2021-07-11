@@ -28,12 +28,18 @@ function Seo({ author, description, image, lang, meta, title, url }) {
   );
 
   const defaultTitle = site.siteMetadata?.title;
+  const metaAuthor = author || site.siteMetadata.author;
   const metaDescription = description || site.siteMetadata.description;
+  const metaImage = image || site.siteMetadata.image;
+  const metaLang = lang || site.siteMetadata.lang;
+  const metaTitle =
+    title === 'トップページ' ? defaultTitle : `${title} | ${defaultTitle}`;
+  const metaUrl = url || site.siteMetadata?.url;
 
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        metaLang,
       }}
       title={title}
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
@@ -48,7 +54,7 @@ function Seo({ author, description, image, lang, meta, title, url }) {
         },
         {
           property: `og:image`,
-          content: image,
+          content: metaImage,
         },
         {
           property: `og:title`,
@@ -60,7 +66,7 @@ function Seo({ author, description, image, lang, meta, title, url }) {
         },
         {
           property: `og:url`,
-          content: url,
+          content: metaUrl,
         },
         {
           name: `twitter:card`,
@@ -68,7 +74,7 @@ function Seo({ author, description, image, lang, meta, title, url }) {
         },
         {
           name: `twitter:creator`,
-          content: author,
+          content: metaAuthor,
         },
         {
           name: `twitter:description`,
@@ -76,11 +82,11 @@ function Seo({ author, description, image, lang, meta, title, url }) {
         },
         {
           name: `twitter:site`,
-          content: author,
+          content: metaAuthor,
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metaTitle,
         },
       ].concat(meta)}
     />
