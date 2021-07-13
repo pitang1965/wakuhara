@@ -5,7 +5,6 @@ import Layout from '../components/layout';
 import Seo from '../components/seo';
 import ContactForm from '../components/ContactForm';
 import VideoContainer from '../components/VideoContainer';
-import Books from '../components/Books';
 
 const IndexPage = () => {
   return (
@@ -45,7 +44,6 @@ const IndexPage = () => {
 
       <VideoContainer url="https://www.youtube.com/embed/lRmAnF6R5Us" />
       <ContactForm />
-      <Books />
     </Layout>
   );
 };
