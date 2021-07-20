@@ -115,7 +115,7 @@ const vaccine = () => (
         alt="死亡者性・年齢階級構造（2021/7/5時点）"
       />
 
-      <VideoContainer url="https://www.youtube.com/embed/XE_92LP-Ycs" />
+      <VideoContainer url="https://www.youtube.com/embed/QZzfn8TRmV0" />
     </article>
   </Layout>
 );
