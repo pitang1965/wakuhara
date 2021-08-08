@@ -54,6 +54,28 @@ const pcr = () => (
           </a>
         </li>
       </ul>
+      <p>
+        2021-07-21 米国のCDC
+        (アメリカ疾病予防管理センター)は新型コロナ専用のPCR検査の緊急使用許可を取り下げる発表"
+        <a
+          href="https://www.cdc.gov/csels/dls/locs/2021/07-21-2021-lab-alert-Changes_CDC_RT-PCR_SARS-CoV-2_Testing_1.html"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Lab Alert: Changes to CDC RT-PCR for SARS-CoV-2 Testing
+        </a>
+        "をしました。
+      </p>
+      <blockquote
+        className={styles.blockquote}
+        cite="https://www.cdc.gov/csels/dls/locs/2021/07-21-2021-lab-alert-Changes_CDC_RT-PCR_SARS-CoV-2_Testing_1.html"
+      >
+        <p>
+          2021年12月31日以降、CDCは、SARS-CoV-2のみを検出するために2020年2月に初めて導入されたアッセイであるCDC
+          2019-新型コロナウイルス (2019-nCoV) リアルタイム RT-PCR
+          診断パネルの米国食品医薬品局（FDA）への緊急使用許可（EUA）の申請を取り下げる。
+        </p>
+      </blockquote>
 
       <h2>私の考え</h2>
       <p>
