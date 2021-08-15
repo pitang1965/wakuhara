@@ -12,7 +12,7 @@ import Books from './Books';
 import FooterNavi from './FooterNavi';
 
 import Header from './header';
-import './layout.module.css';
+import * as styles from './layout.module.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -37,6 +37,13 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <Books />
+        <a
+          href="https://www.reservestock.jp/inquiry/68406"
+          target="_blank"
+          rel="noreferrer"
+        >
+          新型コロナワクチン特例承認取り消し訴訟を支援する会
+        </a>
         <FooterNavi />
         <footer
           style={{
