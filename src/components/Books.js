@@ -1,6 +1,17 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
-import * as styles from './Books.module.css';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid #777;
+  background-color: #f9f9f9;
+  gap: 10px;
+  padding-top: 30px;
+  margin-bottom: 0.5rem;
+`;
 
 const Book = (props) => {
   return (
@@ -21,7 +32,7 @@ const Books = () => {
     { width: 1200, itemsToShow: 5 },
   ];
   return (
-    <div className={styles.container}>
+    <Container>
       <Carousel breakPoints={breakPoints}>
         <Book
           code={`
@@ -95,7 +106,7 @@ const Books = () => {
         `}
         />
       </Carousel>
-    </div>
+    </Container>
   );
 };
 
