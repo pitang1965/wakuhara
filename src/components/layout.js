@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, Made by
           {` `}
-          <a href="https://twitter.com/pitang1965">@pitang1965</a>
+          <a href="https://twitter.com/endoflife2018">人生後半戦</a>
         </footer>
       </div>
     </>
