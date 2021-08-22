@@ -12,7 +12,7 @@ import Books from './Books';
 import FooterNavi from './FooterNavi';
 
 import Header from './header';
-import * as styles from './layout.module.css';
+import './layout.module.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
